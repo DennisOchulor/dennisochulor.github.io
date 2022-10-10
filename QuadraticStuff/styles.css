@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --matteBlack: rgb(23,23,23);
+}
+
+* {
+    font-family: cubano;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+body {
+    background-color: var(--matteBlack);
+    color: azure;
+    font-size: 2.4em;
+    box-sizing: border-box;
+}
+
+h1,h2 {
+    font-weight: normal;
+}
+
+.center {
+    text-align: center;
+}
+
+.text-block {
+    text-align: center;
+    position: relative;
+    left: 100px;
+    top: 30px;
+    color: var(--matteBlack);
+    width: 500px;
+    height: 80px;
+    background-color: chartreuse;
+    padding: 10px;
+    border: 1px;
+    margin: 20px;
+}
+
+.bg-purple {
+    position: absolute;
+    background-color: purple;
+    width: 535px;
+    left: 1200px;
+    top: 200px;
+}
+
+.purple {
+    color: purple;
+}
+
+.font-sofia-pro {
+    font-family: 'Poppins';
+}
+
+#descSolver {
+    position: relative;
+    top: 70px;
+    left: 125px;
+    width: 500px;
+}
+
+#descCreator {
+    position: relative;
+    left: 1200px;
+    bottom: 150px;
+    width: 600px;
+}
+
+button {
+    font-size: 1em;
+    padding: 10px;
+    width: auto;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    filter: brightness(75%);
+}
+
+#btnSolver {
+    width: 100px;
+    position: relative;
+    left: 325px;
+    bottom: 80px;
+    background-color: chartreuse;
+}
+
+#btnCreator {
+    width: 100px;
+    position: relative;
+    left: 1325px;
+    bottom: 80px;
+    background-color: purple;
+}
+
+.green {
+    color: chartreuse;
+}
+
+input {
+    border-style: solid;
+    border-color: chartreuse;
+    position: relative;
+    bottom: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 50px;
+    color: azure;
+    font-size: 1em;
+    width: 200px;
+    font-family: 'Poppins';
+    padding: 10px;
+}
+
+.solveInput {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+#btnSubmit {
+    display: block;
+    margin: auto;
+    background-color: chartreuse;
+}
+
+.normal-weight {
+    font-weight: normal;
+}
+
+.createInput {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+#btnCreate {
+    display: block;
+    background-color: purple;
+    margin: auto;
+}
