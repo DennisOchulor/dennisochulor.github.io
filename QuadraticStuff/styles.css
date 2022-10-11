@@ -91,6 +91,8 @@ button {
 
 button:hover {
     filter: brightness(75%);
+    transform: scale(1.2);
+    transition-duration: 0.3s;
 }
 
 #btnSolver {
