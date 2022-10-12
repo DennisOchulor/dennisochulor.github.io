@@ -7,6 +7,8 @@
 
 * {
     font-family: 'Cubano', sans-serif;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 /* Chrome, Safari, Edge, Opera */
@@ -75,6 +77,10 @@ h1,h2 {
 
 .purple {
     color: purple;
+}
+
+.purple-border {
+    border-color: purple;
 }
 
 .font-sofia-pro {
