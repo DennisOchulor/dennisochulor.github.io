@@ -24,7 +24,7 @@ input[type=number] {
 body {
     background-color: var(--matteBlack);
     color: azure;
-    font-size: 2.4em;
+    font-size: 4vmin;
     box-sizing: border-box;
 }
 
@@ -40,8 +40,8 @@ h1,h2 {
     text-align: center;
     color: var(--matteBlack);
     background-color: chartreuse;
-    height: 80px;
-    width: 500px;
+    height: 7.5vmin;
+    width: 54vmin;
     padding: 10px;
     border: 1px;
     margin: 20px;
@@ -69,7 +69,7 @@ h1,h2 {
 
 .bg-purple {
     background-color: purple;
-    width: 535px;
+    width: 58vmin;
 
 }
 
@@ -92,9 +92,9 @@ h1,h2 {
 button {
     text-align: center;
     font-size: 1em;
-    padding: 10px;
-    width: auto;
-    height: 75px;
+    padding: 0.52vmin;
+    width: 7vmin;
+    height: 7vmin;
     cursor: pointer;
     border: none;
     border-radius: 20px;
@@ -141,6 +141,7 @@ input {
 }
 
 #btnSubmit {
+    width: auto;
     display: block;
     margin: auto;
     background-color: chartreuse;
@@ -156,6 +157,7 @@ input {
 }
 
 #btnCreate {
+    width: auto;
     display: block;
     background-color: purple;
     margin: auto;
