@@ -38,24 +38,39 @@ h1,h2 {
 
 .text-block {
     text-align: center;
-    position: relative;
-    left: 100px;
-    top: 30px;
     color: var(--matteBlack);
-    width: 500px;
-    height: 80px;
     background-color: chartreuse;
+    height: 80px;
+    width: 500px;
     padding: 10px;
     border: 1px;
     margin: 20px;
 }
 
+.flex1 {
+    flex-direction: column;
+    flex-flow: column;
+    display: inline-flex;
+    align-items: center;
+}
+
+.flex2 {
+    display: inline-flex;
+    flex-flow: column;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bigflex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
 .bg-purple {
-    position: absolute;
     background-color: purple;
     width: 535px;
-    left: 1200px;
-    top: 200px;
+
 }
 
 .purple {
@@ -67,23 +82,19 @@ h1,h2 {
 }
 
 #descSolver {
-    position: relative;
-    top: 70px;
-    left: 125px;
     width: 500px;
 }
 
 #descCreator {
-    position: relative;
-    left: 1200px;
-    bottom: 150px;
     width: 600px;
 }
 
 button {
+    text-align: center;
     font-size: 1em;
     padding: 10px;
     width: auto;
+    height: 75px;
     cursor: pointer;
     border: none;
     border-radius: 20px;
@@ -97,17 +108,12 @@ button:hover {
 
 #btnSolver {
     width: 100px;
-    position: relative;
-    left: 325px;
-    bottom: 80px;
     background-color: chartreuse;
+    margin-bottom: 50px;
 }
 
 #btnCreator {
     width: 100px;
-    position: relative;
-    left: 1325px;
-    bottom: 80px;
     background-color: purple;
 }
 
