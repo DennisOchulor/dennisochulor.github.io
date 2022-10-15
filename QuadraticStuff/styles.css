@@ -72,7 +72,6 @@ h1,h2 {
 .bg-purple {
     background-color: purple;
     width: 58vmin;
-
 }
 
 .purple {
@@ -88,11 +87,11 @@ h1,h2 {
 }
 
 #descSolver {
-    width: 500px;
+    width: 50vmin;
 }
 
 #descCreator {
-    width: 600px;
+    width: 60vmin;
 }
 
 button {
@@ -113,13 +112,13 @@ button:hover {
 }
 
 #btnSolver {
-    width: 100px;
+    min-width: 8vw;
     background-color: chartreuse;
     margin-bottom: 50px;
 }
 
 #btnCreator {
-    width: 100px;
+    min-width: 8vw;
     background-color: purple;
 }
 
@@ -133,17 +132,20 @@ input {
     position: relative;
     bottom: 5px;
     background-color: rgba(255, 255, 255, 0.1);
-    height: 50px;
+    height: 5.1vmin;
     color: azure;
     font-size: 1em;
-    width: 200px;
+    width: 23vmin;
     font-family: 'Poppins';
-    padding: 10px;
+    padding: 1vmin;
+    margin-right: 100px;
 }
 
 .solveInput {
-    display: inline-block;
-    margin-right: 100px;
+    align-content: center;
+    display: inline-flex;
+    flex-flow: row;
+    justify-content: space-between;
 }
 
 #btnSubmit {
