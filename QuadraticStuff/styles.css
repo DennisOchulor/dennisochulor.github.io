@@ -138,14 +138,15 @@ input {
     width: 23vmin;
     font-family: 'Poppins';
     padding: 1vmin;
+}
+
+.margin-right {
     margin-right: 100px;
 }
 
 .solveInput {
     align-content: center;
     display: inline-flex;
-    flex-flow: row;
-    justify-content: space-between;
 }
 
 #btnSubmit {
@@ -161,7 +162,6 @@ input {
 
 .createInput {
     display: inline-block;
-    margin-right: 100px;
 }
 
 #btnCreate {
@@ -169,4 +169,14 @@ input {
     display: block;
     background-color: purple;
     margin: auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .margin-right {
+        margin-right: 0;
+    }
+
+    .solveInput, .createInput {
+        display: block;
+    }
 }
