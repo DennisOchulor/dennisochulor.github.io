@@ -1,0 +1,37 @@
+/* A CSS comment, isn't it? */
+
+html {
+    font-size: 16px;
+    font-family: "Ubuntu Mono", sans-serif;
+    background-color: #05204d;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px black;
+}
+
+p, li {
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+body {
+    width: 600px;
+    margin: 10px auto;
+    background-color: #040042;
+    padding: 0 20px 20px 20px;
+    border: 1px solid black;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.click-cursor {
+    cursor: pointer;
+}
