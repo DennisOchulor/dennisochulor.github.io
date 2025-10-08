@@ -1,5 +1,9 @@
 /* A CSS comment, isn't it? */
 
+html {
+    background-color: #05204d;
+}
+
 h1 {
     text-align: center;
     margin: 0;
