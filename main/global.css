@@ -7,3 +7,11 @@ p, li {
     letter-spacing: 1px;
     line-height: 1;
 }
+
+a:visited {
+    color: purple;
+}
+
+a:hover, a:focus {
+    color: darkblue;
+}

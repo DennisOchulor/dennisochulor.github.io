@@ -1,0 +1,10 @@
+h1 {
+    background: linear-gradient(to right, red, gold, green, cyan, blue, darkblue);
+    background-size: 20%;
+    background-clip: text;
+    color: transparent;
+}
+
+p em:hover {
+    color: gold;
+}
