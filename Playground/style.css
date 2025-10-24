@@ -1,3 +1,7 @@
+body {
+    padding: 10px;
+}
+
 h1 {
     background: linear-gradient(to right, red, gold, green, cyan, blue, darkblue);
     background-size: 20%;
