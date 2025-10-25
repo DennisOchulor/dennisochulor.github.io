@@ -1,0 +1,47 @@
+html {
+    padding: 25px;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    background-color: black;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+footer p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.ghost-block {
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 20px;
+    display: flow-root;
+    margin-bottom: 5em;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin: 0 50px;
+    display: inline-block;
+}
+
+.ghost-block:nth-of-type(even) img {
+    float: left;
+}
+
+.ghost-block:nth-of-type(odd) img {
+    float: right;
+}
