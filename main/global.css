@@ -1,6 +1,12 @@
 @import url("normalize.css");
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 16px;
     font-family: "JetBrains Mono", monospace;
@@ -9,6 +15,12 @@ html {
 p, li {
     letter-spacing: 0.1rem;
     line-height: 1.5;
+}
+
+img,
+picture,
+video {
+    max-width: 100%;
 }
 
 a:visited {
