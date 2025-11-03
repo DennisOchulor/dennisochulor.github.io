@@ -1,0 +1,32 @@
+.filter {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-wrap: wrap;
+    margin-bottom: 3em;
+}
+
+.filter span {
+    padding: 10px;
+    background: gray;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.filter span:hover,
+.filter span:focus {
+    background: aliceblue;
+}
+
+.projects {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.project {
+    padding: 10px;
+    background: rgb(128 128 128 / 0.1);
+    border-radius: 10px;
+}
